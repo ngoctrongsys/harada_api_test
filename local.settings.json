@@ -13,7 +13,6 @@
     "APPINSIGHTS_INSTRUMENTATIONKEY": "2310b1e4-48f0-4603-85e5-b0b9f2a796a0",
     "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=2310b1e4-48f0-4603-85e5-b0b9f2a796a0;IngestionEndpoint=https://centralus-0.in.applicationinsights.azure.com/",
     "AzureWebJobsSecretStorageType": "files",
-    "WEBSITE_RUN_FROM_PACKAGE": "1",
     "Base_Color": "#FFFFFF",
 
     "ENABLE_ORYX_BUILD" : "true",
