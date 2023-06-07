@@ -1,0 +1,22 @@
+{
+    "bindings": [{
+            "authLevel": "anonymous",
+            "route": "updateMaster/{subfunction1}/{subfunction2}",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get",
+                "post",
+                "put",
+                "delete"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        }
+    ],
+    "scriptFile": "../dist/API_AutoUpdateDB/index.js"
+}
